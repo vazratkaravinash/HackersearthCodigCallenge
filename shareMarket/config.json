@@ -1,0 +1,18 @@
+{
+    "db": {
+        "url": "mongodb://127.0.0.1:27017/tradenode11",
+        "username":"",
+        "password":"",
+        "url1": "mongodb+srv://tradenode:Tradenode%401234@cluster0-zfd90.mongodb.net/tradenode??ssl=true&replicaSet=Cluster0-shard-0&authSource=admin"
+
+    },
+    "bcrypt": {
+        "saltRounds":10,
+        "myPlaintextPassword":"Avinash1234fhghg",
+        "someOtherPlaintextPassword": "not_bacon"
+    },
+    "jwt": {
+        "expiry": 3600,
+        "algorithm": "RS256"
+    }
+}

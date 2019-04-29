@@ -1,0 +1,12 @@
+{
+    
+    "bcrypt": {
+        "saltRounds":10,
+        "myPlaintextPassword":"Avinash1234fhghg",
+        "someOtherPlaintextPassword": "not_bacon"
+    },
+    "jwt": {
+        "expiry": 3600,
+        "algorithm": "RS256"
+    }
+}
